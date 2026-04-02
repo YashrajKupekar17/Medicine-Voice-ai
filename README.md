@@ -8,6 +8,7 @@ It listens to a customer, understands the request, checks medicine availability 
 This project explores how to build a **real-world AI assistant for medicine retail / pharmacy workflows**, where low latency, offline capability, and simple interaction matter more than a flashy chatbot.
 
 ---
+Demo Video : ![How does it work](https://drive.google.com/file/d/1PAXeMonhghAq51vourQpkxmVPeuo4NJ5/view?usp=sharing)
 
 ## What it does
 
