@@ -1,0 +1,21 @@
+Metadata-Version: 2.4
+Name: medicine-assitant
+Version: 0.1.0
+Summary: Pharmacy kiosk assistant with RAG and voice
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: langgraph>=0.2.0
+Requires-Dist: langchain-ollama>=0.2.0
+Requires-Dist: langchain-core>=0.3.0
+Requires-Dist: faiss-cpu
+Requires-Dist: sentence-transformers>=2.7.0
+Requires-Dist: openai>=1.0.0
+Requires-Dist: numpy>=1.24.0
+Requires-Dist: typing_extensions>=4.0.0
+Provides-Extra: audio
+Requires-Dist: sounddevice>=0.4.6; extra == "audio"
+Requires-Dist: torch>=2.0.0; extra == "audio"
+Requires-Dist: torchaudio>=2.0.0; extra == "audio"
+Requires-Dist: faster-whisper>=1.0.0; extra == "audio"
+Requires-Dist: piper-tts>=1.4.0; extra == "audio"
+Requires-Dist: argostranslate>=1.9.0; extra == "audio"

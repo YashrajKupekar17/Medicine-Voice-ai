@@ -1,0 +1,16 @@
+langgraph>=0.2.0
+langchain-ollama>=0.2.0
+langchain-core>=0.3.0
+faiss-cpu
+sentence-transformers>=2.7.0
+openai>=1.0.0
+numpy>=1.24.0
+typing_extensions>=4.0.0
+
+[audio]
+sounddevice>=0.4.6
+torch>=2.0.0
+torchaudio>=2.0.0
+faster-whisper>=1.0.0
+piper-tts>=1.4.0
+argostranslate>=1.9.0

@@ -1,0 +1,26 @@
+# Audio
+sounddevice>=0.4.6
+numpy>=1.24.0
+
+# VAD
+torch>=2.0.0
+torchaudio>=2.0.0
+
+# STT
+faster-whisper>=1.0.0
+
+# TTS
+piper-tts>=1.4.0
+
+# RAG
+sentence-transformers>=2.7.0
+faiss-cpu
+
+# LLM
+openai>=1.0.0   # used to talk to Ollama's OpenAI-compatible API
+
+# Translation (offline, ~30MB per language pair)
+argostranslate>=1.9.0
+
+
+

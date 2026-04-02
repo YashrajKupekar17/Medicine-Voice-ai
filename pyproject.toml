@@ -1,0 +1,43 @@
+[project]
+name = "medicine-assitant"
+version = "0.1.0"
+description = "Pharmacy kiosk assistant with RAG and voice"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    # Graph & LLM
+    "langgraph>=0.2.0",
+    "langchain-ollama>=0.2.0",
+    "langchain-core>=0.3.0",
+    # RAG
+    "faiss-cpu",
+    "sentence-transformers>=2.7.0",
+    # Ollama-compatible client
+    "openai>=1.0.0",
+    # Utils
+    "numpy>=1.24.0",
+    "typing_extensions>=4.0.0",
+    "langgraph-cli[inmem]>=0.4.19",
+    "sounddevice>=0.5.5",
+    "torchaudio>=2.11.0",
+    "faster-whisper>=1.2.1",
+    "piper-tts>=1.4.1",
+    "argostranslate>=1.11.0",
+]
+
+[dependency-groups]
+dev = ["langgraph-cli>=0.1.0"]
+
+[tool.setuptools.packages.find]
+include = ["agent*", "rag*", "audio*"]
+
+[project.optional-dependencies]
+# Install with: pip install -e ".[audio]"
+audio = [
+    "sounddevice>=0.4.6",
+    "torch>=2.0.0",
+    "torchaudio>=2.0.0",
+    "faster-whisper>=1.0.0",
+    "piper-tts>=1.4.0",
+    "argostranslate>=1.9.0",
+]
