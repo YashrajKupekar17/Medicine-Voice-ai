@@ -10,6 +10,8 @@ This project explores how to build a **real-world AI assistant for medicine reta
 ---
 Demo Video : [Click here to see the magic :) ](https://drive.google.com/file/d/1PAXeMonhghAq51vourQpkxmVPeuo4NJ5/view?usp=sharing)
 
+Exploration and research Doc : [What did i learn?](https://docs.google.com/document/d/1AOXohLjAbpuB70OzNNrurEVoUDmyn94OWiMRkmhple8/edit?usp=sharing)
+
 ## What it does
 
 The assistant can:
